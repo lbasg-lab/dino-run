@@ -1,0 +1,8 @@
+name: CI
+
+on:
+  pull_request:
+
+jobs:
+  ci:
+    uses: lbasg-lab/cicd-pipelines/.github/workflows/ci.yml@v2.0.0
